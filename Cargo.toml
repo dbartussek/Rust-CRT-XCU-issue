@@ -5,7 +5,8 @@ edition = "2021"
 
 [features]
 dummy_touch = []
+dummy_touch_indirect = []
 
 [dependencies]
-ctor = "0.2.8"
+ctor = { version = "0.2.8", features = ["used_linker"] }
 libc-print = "0.1.23"
