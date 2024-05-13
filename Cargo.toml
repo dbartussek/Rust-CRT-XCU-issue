@@ -1,0 +1,11 @@
+[package]
+name = "nested_init_test"
+version = "0.1.0"
+edition = "2021"
+
+[features]
+dummy_touch = []
+
+[dependencies]
+ctor = "0.2.8"
+libc-print = "0.1.23"
